@@ -3,7 +3,7 @@
 set -e
 
 # Install Java
-sudo dnf install java-1.8 wget -y
+sudo dnf install java-1.8.0 wget -y
 
 # Download Nexus
 curl -L https://download.sonatype.com/nexus/3/nexus-3.64.0-04-unix.tar.gz -o /tmp/nexus.tar.gz 
