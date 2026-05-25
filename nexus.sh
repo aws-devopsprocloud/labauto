@@ -6,7 +6,7 @@ set -e
 sudo dnf install java-17-openjdk wget -y
 
 # Download Nexus
-curl -L https://download.sonatype.com/nexus/3/latest-unix.tar.gz -o /tmp/nexus.tar.gz
+curl -L https://download.sonatype.com/nexus/3/nexus-3.64.0-04-unix.tar.gz -o /tmp/nexus.tar.gz 
 
 # Extract Nexus
 sudo tar -xzf /tmp/nexus.tar.gz -C /opt
