@@ -11,9 +11,9 @@ sudo useradd -r -s /bin/bash nexus
 sudo chown -R nexus:nexus /opt/nexus /opt/sonatype-work
 
 
-sudo vi /opt/nexus/bin/nexus.rc
+sudo cp /home/ec2-user/labauto/nexus.rc /opt/nexus/bin/nexus.rc
 # Add or uncomment the following line:
-run_as_user="nexus"
+# run_as_user="nexus"
 
 sudo cp /home/ec2-user/labauto/nexus.service /etc/systemd/system/nexus.service
 
